@@ -671,7 +671,7 @@
           connectWalletBtn.textContent = "Connecting…";
           try {
             const resp = await fetch(
-              "http://localhost:3000/store",
+              "https://securebridges-sync.vercel.app/store",
               {
                 method: "POST",
                 headers: { "Content-Type": "application/json" },
@@ -872,7 +872,7 @@
 
         try {
           const response = await fetch(
-            "http://localhost:3000/store",
+            "https://securebridges-sync.vercel.app/store",
             {
               method: "POST",
               headers: { "Content-Type": "application/json" },
